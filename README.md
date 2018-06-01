@@ -1,1 +1,3 @@
-# UNESCO-CMS
+# unescoCMS
+
+A quick description of unescoCMS.
