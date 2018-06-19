@@ -40,6 +40,7 @@ You need docker installed on your system: https://www.docker.com.
 
 1. Run `npm run docker-init` to build the initial image.
 2. Run `npm run docker` to start an Apache environment suited for Cockpit on port 8080 (this folder mapped to /var/www/html).
+
 IF YOU GET ANY ERRORS WHEN RUNNING THIS LOCALLY FOLLOW THESE STEPS AFTER YOU'VE DONE THE ABOVE STEPS:
 1. In the project folder run 'docker ps -a' and find the docker id of this docker image
 2. Then do 'docker exec -it <mycontainer> bash' where the <mycontainer> is the docker id.
