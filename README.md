@@ -43,7 +43,7 @@ You need docker installed on your system: https://www.docker.com.
 
 IF YOU GET ANY ERRORS WHEN RUNNING THIS LOCALLY FOLLOW THESE STEPS AFTER YOU'VE DONE THE ABOVE STEPS:
 1. In the project folder run 'docker ps -a' and find the docker id of this docker image
-2. Then do 'docker exec -it <mycontainer> bash' where the <mycontainer> is the docker id.
+2. Then do 'docker exec -it mycontainer bash' where the mycontainer is the docker id.
 3. Then do 'sudo chmod -R 777 storage' (DO THIS ONLY LOCALLY! This gives all permissions to everyone!)
 4. Then go to your browser and go to this link: 'http://localhost:8080/install'
 5. And follow the steps shown in the browser.
