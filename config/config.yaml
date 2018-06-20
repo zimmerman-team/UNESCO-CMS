@@ -1,0 +1,11 @@
+# cockpit session name
+app.name: UNESCO Data Portal
+
+# cockpit session name
+session.name: mysession
+
+# define the languages you want to manage
+languages:
+    fr: French
+    en: English
+

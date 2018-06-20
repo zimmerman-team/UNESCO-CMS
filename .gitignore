@@ -118,7 +118,7 @@ composer.lock
 /lib/**/example/*
 /storage/*.*
 /storage/*/*
-/config/*
+
 /tests/*
 /node_modules
 addons/
