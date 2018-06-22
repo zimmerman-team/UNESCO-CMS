@@ -66,11 +66,6 @@ $RECYCLE.BIN/
 # Logs and databases
 ############################
 
-.tmp
-*.log
-*.sql
-*.sqlite
-*.sqlite3
 
 
 ############################
@@ -116,15 +111,11 @@ composer.lock
 /lib/**/docs/*
 /lib/**/tests/*
 /lib/**/example/*
-/storage/*.*
-/storage/*/*
 
 /tests/*
 /node_modules
 addons/
 !.gitignore
 !.gitkeep
-!/storage/*/index.html
-!/storage/*/.htaccess
 defines.php
 
