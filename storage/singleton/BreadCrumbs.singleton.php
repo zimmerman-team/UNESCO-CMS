@@ -239,11 +239,155 @@
       array (
       ),
     ),
+    13 => 
+    array (
+      'name' => 'CountryTxt',
+      'label' => 'Country label',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    14 => 
+    array (
+      'name' => 'DonorTxt',
+      'label' => 'Donor',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    15 => 
+    array (
+      'name' => 'RegionTxt',
+      'label' => 'Region label',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    16 => 
+    array (
+      'name' => 'SectorTxt',
+      'label' => 'Sector label',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    17 => 
+    array (
+      'name' => 'FocusTxt',
+      'label' => 'Focus label',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    18 => 
+    array (
+      'name' => 'ProjectTxt',
+      'label' => 'Project label',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    19 => 
+    array (
+      'name' => 'FundsBeingSpentTxt',
+      'label' => 'Funds being spent label',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    20 => 
+    array (
+      'name' => 'FundsBeingSpentOnTxt',
+      'label' => 'Funds being spent on label',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
   ),
   'template' => '',
   'data' => NULL,
   '_created' => 1531917065,
-  '_modified' => 1531917065,
+  '_modified' => 1532532427,
   'description' => 'Should contain text for the breadcrumbs - breadcrumbs basically show the path/location on the website where the user currently is',
   'acl' => 
   array (

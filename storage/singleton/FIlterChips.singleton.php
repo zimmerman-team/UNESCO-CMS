@@ -7,8 +7,8 @@
   array (
     0 => 
     array (
-      'name' => 'BudgetLabel',
-      'label' => 'Budget Label',
+      'name' => 'MinBudgetLabel',
+      'label' => 'Min Budget Label',
       'type' => 'text',
       'default' => '',
       'info' => 'Text/label for the budget filter chip. (example: \'Min. budget: \')',
@@ -25,11 +25,11 @@
     ),
     1 => 
     array (
-      'name' => 'ExpendLabel',
-      'label' => 'Expenditure Label',
+      'name' => 'MaxBudgetLabel',
+      'label' => 'Max Budget Label',
       'type' => 'text',
       'default' => '',
-      'info' => 'Text/label for the Expenditure filter chip. (example: \'Expenditure: \')',
+      'info' => 'Text/label for the budget filter chip. (example: \'Max. budget: \')',
       'group' => '',
       'localize' => true,
       'options' => 
@@ -42,6 +42,60 @@
       ),
     ),
     2 => 
+    array (
+      'name' => 'MinExpendLabel',
+      'label' => 'Min Expenditure label',
+      'type' => 'text',
+      'default' => '',
+      'info' => 'Text/label for the Expenditure filter chip. (example: \'Min expenditure: \')',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    3 => 
+    array (
+      'name' => 'MaxExpendLabel',
+      'label' => 'Max Expenditure Label',
+      'type' => 'text',
+      'default' => '',
+      'info' => 'Text/label for the Expenditure filter chip. (example: \'Max expenditure: \')',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    4 => 
+    array (
+      'name' => 'CountryLabel',
+      'label' => 'Country label',
+      'type' => 'text',
+      'default' => '',
+      'info' => 'Country label',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    5 => 
     array (
       'name' => 'RegionsLabel',
       'label' => 'Recipient regions Label',
@@ -59,7 +113,7 @@
       array (
       ),
     ),
-    3 => 
+    6 => 
     array (
       'name' => 'DonorsLabel',
       'label' => 'Donors Label',
@@ -77,7 +131,7 @@
       array (
       ),
     ),
-    4 => 
+    7 => 
     array (
       'name' => 'SectorsLabel',
       'label' => 'Sectors Label',
@@ -95,7 +149,7 @@
       array (
       ),
     ),
-    5 => 
+    8 => 
     array (
       'name' => 'StartLabel',
       'label' => 'Start date after Label',
@@ -113,7 +167,7 @@
       array (
       ),
     ),
-    6 => 
+    9 => 
     array (
       'name' => 'EndLabel',
       'label' => 'End date after Label',
@@ -131,7 +185,7 @@
       array (
       ),
     ),
-    7 => 
+    10 => 
     array (
       'name' => 'StatusLabel',
       'label' => 'Project Status Label',
@@ -149,7 +203,7 @@
       array (
       ),
     ),
-    8 => 
+    11 => 
     array (
       'name' => 'KeywordLabel',
       'label' => 'Keyword search Label',
@@ -167,7 +221,7 @@
       array (
       ),
     ),
-    9 => 
+    12 => 
     array (
       'name' => 'SDGLabel',
       'label' => 'SDG Goals Label',
@@ -189,7 +243,7 @@
   'template' => '',
   'data' => NULL,
   '_created' => 1531916445,
-  '_modified' => 1531916445,
+  '_modified' => 1532526980,
   'description' => 'This should contain labels for appropriate filter chips, which are shown when the user selects to filter by something',
   'acl' => 
   array (

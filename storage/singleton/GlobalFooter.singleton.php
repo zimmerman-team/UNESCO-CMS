@@ -27,7 +27,7 @@
     array (
       'name' => 'DisclaimerTxt',
       'label' => 'Disclaimer of use Text',
-      'type' => 'text',
+      'type' => 'object',
       'default' => '',
       'info' => 'Text for the \'Disclaimer of use\' link',
       'group' => '',
@@ -45,7 +45,7 @@
     array (
       'name' => 'PolicyTxt',
       'label' => 'Privacy Policy Text',
-      'type' => 'text',
+      'type' => 'object',
       'default' => '',
       'info' => 'Text for the Privacy Policy link',
       'group' => '',
@@ -63,7 +63,7 @@
     array (
       'name' => 'TermsTxt',
       'label' => 'Terms of use Text',
-      'type' => 'text',
+      'type' => 'object',
       'default' => '',
       'info' => 'Text for the Terms of use link',
       'group' => '',
@@ -81,7 +81,7 @@
     array (
       'name' => 'ContactTxt',
       'label' => 'Contact us Text',
-      'type' => 'text',
+      'type' => 'object',
       'default' => '',
       'info' => 'Text for the Contact us link',
       'group' => '',
@@ -113,11 +113,47 @@
       array (
       ),
     ),
+    6 => 
+    array (
+      'name' => 'AccInfoPolicyTxt',
+      'label' => 'AccInfoPolicyTxt',
+      'type' => 'object',
+      'default' => '',
+      'info' => 'Access to Information Policy',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    7 => 
+    array (
+      'name' => 'SitemapTxt',
+      'label' => 'SitemapTxt',
+      'type' => 'object',
+      'default' => '',
+      'info' => 'Sitemap',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
   ),
   'template' => '',
   'data' => NULL,
   '_created' => 1531744320,
-  '_modified' => 1531744320,
+  '_modified' => 1532437924,
   'description' => 'This should contain texts for the global footer',
   'acl' => 
   array (

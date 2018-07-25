@@ -25,11 +25,11 @@
     ),
     1 => 
     array (
-      'name' => 'AllFoundTxt',
-      'label' => 'All Projects Found Text',
+      'name' => 'AllProjectsTxt',
+      'label' => 'All Projects text',
       'type' => 'text',
       'default' => '',
-      'info' => 'Title text informing the user about the amount of projects found in the \'All Projects\' page (example: \'{project_amount}  projects found in  All Projects\' ). Again the curly brackets and whats in them should always be there, their position in the text can be changed (what might be shown as the project amount: project_amount=2493)',
+      'info' => 'All Projects text',
       'group' => '',
       'localize' => true,
       'options' => 
@@ -42,42 +42,6 @@
       ),
     ),
     2 => 
-    array (
-      'name' => 'CountryNameTxt',
-      'label' => 'Country Projects Page Name Text',
-      'type' => 'text',
-      'default' => '',
-      'info' => 'Text for the page name that is shown in the Country Projects page. (example: \'UNESCO project explorer:\')',
-      'group' => '',
-      'localize' => true,
-      'options' => 
-      array (
-      ),
-      'width' => '1-1',
-      'lst' => true,
-      'acl' => 
-      array (
-      ),
-    ),
-    3 => 
-    array (
-      'name' => 'CountryFoundTxt',
-      'label' => 'Country Projects Found Text',
-      'type' => 'text',
-      'default' => '',
-      'info' => 'Title text informing the user about the amount of projects found in the \'Country Projects\' page (example: \'{project_amount}  projects found in  Country Projects\' ). Again the curly brackets and whats in them should always be there, their position in the text can be changed (what might be shown as the project amount: project_amount=2493)',
-      'group' => '',
-      'localize' => true,
-      'options' => 
-      array (
-      ),
-      'width' => '1-1',
-      'lst' => true,
-      'acl' => 
-      array (
-      ),
-    ),
-    4 => 
     array (
       'name' => 'RegionalNameTxt',
       'label' => 'Regional Projects Page Name Text',
@@ -95,13 +59,13 @@
       array (
       ),
     ),
-    5 => 
+    3 => 
     array (
-      'name' => 'RegionalFoundTxt',
-      'label' => 'Regional Projects Found Text',
+      'name' => 'RegionalProjectsTxt',
+      'label' => 'Regional Projects Text',
       'type' => 'text',
       'default' => '',
-      'info' => 'Title text informing the user about the amount of projects found in the \'Regional Projects\' page (example: \'{project_amount}  projects found in  Country Projects\' ). Again the curly brackets and whats in them should always be there, their position in the text can be changed (what might be shown as the project amount: project_amount=2493)',
+      'info' => 'Regional Projects Text',
       'group' => '',
       'localize' => true,
       'options' => 
@@ -113,7 +77,7 @@
       array (
       ),
     ),
-    6 => 
+    4 => 
     array (
       'name' => 'GlobalNameTxt',
       'label' => 'Global Projects Page Name Text',
@@ -131,13 +95,49 @@
       array (
       ),
     ),
-    7 => 
+    5 => 
     array (
-      'name' => 'GlobalFoundTxt',
-      'label' => 'Global Projects Found Text',
+      'name' => 'GlobalProjectsTxt',
+      'label' => 'Global Projects Text',
       'type' => 'text',
       'default' => '',
-      'info' => 'Title text informing the user about the amount of projects found in the \'Global Projects\' page (example: \'{project_amount}  projects found in  Global Projects\' ). Again the curly brackets and whats in them should always be there, their position in the text can be changed (what might be shown as the project amount: project_amount=2493)',
+      'info' => 'Global Projects Text',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    6 => 
+    array (
+      'name' => 'CountryNameTxt',
+      'label' => 'Country Projects Page Name Text',
+      'type' => 'text',
+      'default' => '',
+      'info' => 'Text for the page name that is shown in the Country Projects page. (example: \'UNESCO project explorer:\')',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    7 => 
+    array (
+      'name' => 'CountryProjectsTxt',
+      'label' => 'Country Projects Text',
+      'type' => 'text',
+      'default' => '',
+      'info' => 'Country Projects Text',
       'group' => '',
       'localize' => true,
       'options' => 
@@ -295,6 +295,42 @@
     ),
     16 => 
     array (
+      'name' => 'RequirementsStackBtnText',
+      'label' => 'Requirements stack button text',
+      'type' => 'text',
+      'default' => '',
+      'info' => 'Requirements stack button text',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    17 => 
+    array (
+      'name' => 'RequirementsUnStackBtnText',
+      'label' => 'Requirements Unstack button text',
+      'type' => 'text',
+      'default' => '',
+      'info' => 'Requirements Unstack button text',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    18 => 
+    array (
       'name' => 'DonorsTitle',
       'label' => 'Donors Page Title',
       'type' => 'text',
@@ -311,7 +347,7 @@
       array (
       ),
     ),
-    17 => 
+    19 => 
     array (
       'name' => 'RegionsTitle',
       'label' => 'Regions Page Title',
@@ -329,7 +365,7 @@
       array (
       ),
     ),
-    18 => 
+    20 => 
     array (
       'name' => 'CountriesTitle',
       'label' => 'Country’s Page Title',
@@ -347,11 +383,47 @@
       array (
       ),
     ),
+    21 => 
+    array (
+      'name' => 'FoundLabel',
+      'label' => 'Found label',
+      'type' => 'text',
+      'default' => '',
+      'info' => 'projects found in',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    22 => 
+    array (
+      'name' => 'DonorDetailNameTxt',
+      'label' => 'Donor detail name text',
+      'type' => 'text',
+      'default' => '',
+      'info' => 'Donor detail name text',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
   ),
   'template' => '',
   'data' => NULL,
   '_created' => 1531917941,
-  '_modified' => 1531918249,
+  '_modified' => 1532518290,
   'description' => 'This should contain texts for the headers which specify the page in which the user is and shows some additional information specific for the page. ',
   'acl' => 
   array (

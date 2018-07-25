@@ -9,7 +9,7 @@
     array (
       'name' => 'EngButTxt',
       'label' => 'English Button Text',
-      'type' => 'text',
+      'type' => 'object',
       'default' => '',
       'info' => 'Text for the button to switch to english',
       'group' => '',
@@ -27,7 +27,7 @@
     array (
       'name' => 'FrButTxt',
       'label' => 'French Button Text',
-      'type' => 'text',
+      'type' => 'object',
       'default' => '',
       'info' => 'Text for the button to switch to french',
       'group' => '',
@@ -45,7 +45,7 @@
     array (
       'name' => 'UnscButTxt',
       'label' => 'Unesco Website Button Text',
-      'type' => 'text',
+      'type' => 'object',
       'default' => '',
       'info' => 'Text for the button wich redirects to the unesco website',
       'group' => '',
@@ -63,7 +63,7 @@
     array (
       'name' => 'MembButTxt',
       'label' => 'Member States Button Text',
-      'type' => 'text',
+      'type' => 'object',
       'default' => '',
       'info' => 'Text for the button wich redirects to the member states website',
       'group' => '',
@@ -81,7 +81,7 @@
     array (
       'name' => 'UnesComButTxt',
       'label' => 'Unes Community Button Text',
-      'type' => 'text',
+      'type' => 'object',
       'default' => '',
       'info' => 'Text for the button wich redirects to the unes community website',
       'group' => '',
@@ -153,7 +153,7 @@
   'template' => '',
   'data' => NULL,
   '_created' => 1531916208,
-  '_modified' => 1531925005,
+  '_modified' => 1532435740,
   'description' => 'Should contain various texts, logos, texts for buttons for the global header',
   'acl' => 
   array (

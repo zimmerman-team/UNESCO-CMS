@@ -401,11 +401,47 @@
       array (
       ),
     ),
+    22 => 
+    array (
+      'name' => 'CountriesChartTitle',
+      'label' => 'Countries Chart Title',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    23 => 
+    array (
+      'name' => 'RegionsChartTitle',
+      'label' => 'Regions Chart Title',
+      'type' => 'text',
+      'default' => '',
+      'info' => 'RegionsChartTitle',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
   ),
   'template' => '',
   'data' => NULL,
   '_created' => 1531914402,
-  '_modified' => 1531914402,
+  '_modified' => 1532529727,
   'description' => 'Specific Texts for the Project Detail Page.',
   'acl' => 
   array (

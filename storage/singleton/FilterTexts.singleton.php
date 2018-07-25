@@ -185,11 +185,47 @@
       array (
       ),
     ),
+    10 => 
+    array (
+      'name' => 'FilterCountriesTxt',
+      'label' => 'Beneficiary countries',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    11 => 
+    array (
+      'name' => 'FilterStrategiesTxt',
+      'label' => 'UNESCO Strategies and Plans',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
   ),
   'template' => '',
   'data' => NULL,
   '_created' => 1531917535,
-  '_modified' => 1531917535,
+  '_modified' => 1532509050,
   'description' => 'THis should contain texts for various filter dropdowns',
   'acl' => 
   array (

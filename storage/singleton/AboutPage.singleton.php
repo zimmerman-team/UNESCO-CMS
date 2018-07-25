@@ -9,7 +9,7 @@
     array (
       'name' => 'TitleTxt',
       'label' => 'Title Text',
-      'type' => 'text',
+      'type' => 'html',
       'default' => '',
       'info' => 'Text for the About Page Title',
       'group' => '',
@@ -27,7 +27,7 @@
     array (
       'name' => 'DescriptionTxt',
       'label' => 'Description Text',
-      'type' => 'markdown',
+      'type' => 'html',
       'default' => '',
       'info' => 'Text for the About Page Description. Pls format it the way it should be shown on the page, with enough spaces between paragraphs, between title and paragraphs and etc., bold words where required or other stylings. Use the english content as an example. ',
       'group' => '',
@@ -45,7 +45,7 @@
   'template' => '',
   'data' => NULL,
   '_created' => 1531914743,
-  '_modified' => 1531916021,
+  '_modified' => 1532445317,
   'description' => 'Texts for the about page',
   'acl' => 
   array (

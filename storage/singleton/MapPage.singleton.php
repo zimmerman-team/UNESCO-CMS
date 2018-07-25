@@ -97,7 +97,7 @@
     ),
     5 => 
     array (
-      'name' => 'ViewPopupTxt',
+      'name' => 'ViewCountryPopupTxt',
       'label' => 'Map \'VIEW COUNTRY PAGE\' popup Text',
       'type' => 'text',
       'default' => '',
@@ -113,11 +113,47 @@
       array (
       ),
     ),
+    6 => 
+    array (
+      'name' => 'ViewRegionPopupTxt',
+      'label' => 'Map \'VIEW REGION PAGE\' popup Text',
+      'type' => 'text',
+      'default' => '',
+      'info' => 'Text for the \'VIEW REGION PAGE\' word, that is shown as part of the map popup AND which if clicked redirects the user to the regions detail page',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    7 => 
+    array (
+      'name' => 'NoDataTxt',
+      'label' => 'No data available label',
+      'type' => 'text',
+      'default' => '',
+      'info' => 'No data available label',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
   ),
   'template' => '',
   'data' => NULL,
   '_created' => 1531917211,
-  '_modified' => 1531917211,
+  '_modified' => 1532523468,
   'description' => 'This should contain texts that will be shown in the map, which is the main part of the Country Projects page. NOTE: There\'s also a popup in the map which appears when the user hovers over a country, the popup shows the project amount, budget, expenditure associated with the country.',
   'acl' => 
   array (
