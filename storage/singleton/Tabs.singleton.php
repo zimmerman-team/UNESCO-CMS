@@ -1,17 +1,17 @@
 <?php
  return array (
-  'name' => 'ColumnTitles',
-  'label' => 'Column Titles',
-  '_id' => 'ColumnTitles5b4c8f811413a',
+  'name' => 'Tabs',
+  'label' => 'Tabs',
+  '_id' => 'Tabs5b6185e2d8215',
   'fields' => 
   array (
     0 => 
     array (
-      'name' => 'ProjectColTitle',
-      'label' => '\'Project Title\' Column Title',
+      'name' => 'ProjectOverviewTxt',
+      'label' => 'project overview',
       'type' => 'text',
       'default' => '',
-      'info' => 'Title for the \'Project titles\' column.',
+      'info' => '',
       'group' => '',
       'localize' => true,
       'options' => 
@@ -25,11 +25,11 @@
     ),
     1 => 
     array (
-      'name' => 'BudgetColTitle',
-      'label' => '\'Total Budget\' Column Title',
+      'name' => 'ImplStrategyTxt',
+      'label' => 'implementation strategy',
       'type' => 'text',
       'default' => '',
-      'info' => 'Title for the \'Total Budget\' column.',
+      'info' => '',
       'group' => '',
       'localize' => true,
       'options' => 
@@ -43,11 +43,11 @@
     ),
     2 => 
     array (
-      'name' => 'ExpendColTitle',
-      'label' => '\'Total Expenditure\' Column Title',
+      'name' => 'ProgAchievedTxt',
+      'label' => 'progress achieved',
       'type' => 'text',
       'default' => '',
-      'info' => 'Title for the \'Total Expenditure\' column.',
+      'info' => '',
       'group' => '',
       'localize' => true,
       'options' => 
@@ -61,11 +61,11 @@
     ),
     3 => 
     array (
-      'name' => 'StartColTitle',
-      'label' => '\'START DATE\' Column Title',
+      'name' => 'RelatedProjectsTxt',
+      'label' => 'related projects',
       'type' => 'text',
       'default' => '',
-      'info' => 'Title for the \'START DATE\' column.',
+      'info' => '',
       'group' => '',
       'localize' => true,
       'options' => 
@@ -79,11 +79,11 @@
     ),
     4 => 
     array (
-      'name' => 'EndColTitle',
-      'label' => '\'END DATE\' Column Title',
+      'name' => 'CountryOverviewTxt',
+      'label' => 'country overview',
       'type' => 'text',
       'default' => '',
-      'info' => 'Title for the \'END DATE\' column.',
+      'info' => '',
       'group' => '',
       'localize' => true,
       'options' => 
@@ -97,11 +97,11 @@
     ),
     5 => 
     array (
-      'name' => 'StatusColTitle',
-      'label' => '\'STATUS\' Column Title',
+      'name' => 'RegionOverviewTxt',
+      'label' => 'region overview',
       'type' => 'text',
       'default' => '',
-      'info' => 'Title for the \'STATUS\' column.',
+      'info' => '',
       'group' => '',
       'localize' => true,
       'options' => 
@@ -115,11 +115,11 @@
     ),
     6 => 
     array (
-      'name' => 'CategoryColTitle',
-      'label' => '\'CATEGORY\' Column Title',
+      'name' => 'SectorOverviewTxt',
+      'label' => 'sector overview',
       'type' => 'text',
       'default' => '',
-      'info' => 'Title for the \'CATEGORY\' column.',
+      'info' => '',
       'group' => '',
       'localize' => true,
       'options' => 
@@ -133,11 +133,11 @@
     ),
     7 => 
     array (
-      'name' => 'DonorColTitle',
-      'label' => '\'DONOR\' Column Title',
+      'name' => 'DonorOverviewTxt',
+      'label' => 'donor overview',
       'type' => 'text',
       'default' => '',
-      'info' => 'Title for the \'DONOR\' column.',
+      'info' => '',
       'group' => '',
       'localize' => true,
       'options' => 
@@ -151,11 +151,11 @@
     ),
     8 => 
     array (
-      'name' => 'RegionColTitle',
-      'label' => '\'REGION\' Column Title',
+      'name' => 'FocusAreaOverviewTxt',
+      'label' => 'focus area overview',
       'type' => 'text',
       'default' => '',
-      'info' => 'Title for the \'REGION\' column.',
+      'info' => '',
       'group' => '',
       'localize' => true,
       'options' => 
@@ -169,11 +169,11 @@
     ),
     9 => 
     array (
-      'name' => 'CountryColTitle',
-      'label' => '\'COUNTRY\' Column Title',
+      'name' => 'DonorsTxt',
+      'label' => 'donors',
       'type' => 'text',
       'default' => '',
-      'info' => 'Title for the \'COUNTRY\' column.',
+      'info' => '',
       'group' => '',
       'localize' => true,
       'options' => 
@@ -187,11 +187,11 @@
     ),
     10 => 
     array (
-      'name' => 'SectorColTitle',
-      'label' => '\'SECTOR\' Column Title',
+      'name' => 'CountriesTxt',
+      'label' => 'countries',
       'type' => 'text',
       'default' => '',
-      'info' => 'Title for the \'SECTOR\' column.',
+      'info' => '',
       'group' => '',
       'localize' => true,
       'options' => 
@@ -205,11 +205,11 @@
     ),
     11 => 
     array (
-      'name' => 'FocusColTitle',
-      'label' => '\'FOCUS AREA\' Column Title',
+      'name' => 'RegionsTxt',
+      'label' => 'regions',
       'type' => 'text',
       'default' => '',
-      'info' => 'Title for the \'FOCUS AREA\' column.',
+      'info' => '',
       'group' => '',
       'localize' => true,
       'options' => 
@@ -223,8 +223,44 @@
     ),
     12 => 
     array (
-      'name' => 'PaginationRowsTxt',
-      'label' => 'Pagination \'Rows per page\' text',
+      'name' => 'SectorsTxt',
+      'label' => 'sectors',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    13 => 
+    array (
+      'name' => 'FocusAreasTxt',
+      'label' => 'focus areas',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    14 => 
+    array (
+      'name' => 'DonorCategoriesTxt',
+      'label' => 'donor categories',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -242,11 +278,11 @@
   ),
   'template' => '',
   'data' => NULL,
-  '_created' => 1531744129,
-  '_modified' => 1533120359,
-  'description' => 'This should contain title texts for various columns',
+  '_created' => 1533117922,
+  '_modified' => 1533119155,
+  'description' => '',
   'acl' => 
   array (
   ),
-  'icon' => 'heading.svg',
+  'icon' => 'layout.svg',
 );
