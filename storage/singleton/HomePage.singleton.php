@@ -131,11 +131,65 @@
       array (
       ),
     ),
+    7 => 
+    array (
+      'name' => 'ProjectsTxt',
+      'label' => 'Projects txt',
+      'type' => 'text',
+      'default' => '',
+      'info' => 'In the text content of the homepage header',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    8 => 
+    array (
+      'name' => 'DonorsTxt',
+      'label' => 'Donors txt',
+      'type' => 'text',
+      'default' => '',
+      'info' => 'In the text content of the homepage header',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    9 => 
+    array (
+      'name' => 'CountriesTxt',
+      'label' => 'Countries txt',
+      'type' => 'text',
+      'default' => '',
+      'info' => 'In the text content of the homepage header',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
   ),
   'template' => '',
   'data' => NULL,
   '_created' => 1531917807,
-  '_modified' => 1532440540,
+  '_modified' => 1532597033,
   'description' => 'Texts for the home page',
   'acl' => 
   array (
