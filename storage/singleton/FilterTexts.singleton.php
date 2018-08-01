@@ -221,11 +221,137 @@
       array (
       ),
     ),
+    12 => 
+    array (
+      'name' => 'SearchTxt',
+      'label' => 'Search filter input text',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    13 => 
+    array (
+      'name' => 'SearchDonorTxt',
+      'label' => 'Search for a donor',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    14 => 
+    array (
+      'name' => 'SearchSectorTxt',
+      'label' => 'Search for a sector',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    15 => 
+    array (
+      'name' => 'SearchRegionTxt',
+      'label' => 'Search for a region',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    16 => 
+    array (
+      'name' => 'SearchCountryTxt',
+      'label' => 'Search for a country',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    17 => 
+    array (
+      'name' => 'StartDateTxt',
+      'label' => 'Start date',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
+    18 => 
+    array (
+      'name' => 'EndDateTxt',
+      'label' => 'End date',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => true,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+    ),
   ),
   'template' => '',
   'data' => NULL,
   '_created' => 1531917535,
-  '_modified' => 1532509050,
+  '_modified' => 1533114534,
   'description' => 'THis should contain texts for various filter dropdowns',
   'acl' => 
   array (
