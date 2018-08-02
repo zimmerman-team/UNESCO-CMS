@@ -89,8 +89,8 @@ function cockpit($module = null) {
             'session.name' => md5(__DIR__),
             'sec-key'      => 'c3b40c4c-db44-s5h7-a814-b4931a15e5e1',
             'i18n'         => 'en',
-            'database'     => [ "server" => "mongolite://".(COCKPIT_STORAGE_FOLDER."/data"), "options" => ["db" => "cockpitdb"] ],
-            'memory'       => [ "server" => "redislite://".(COCKPIT_STORAGE_FOLDER."/data/cockpit.memory.sqlite"), "options" => [] ],
+            'database'     => ['server' => 'mongolite://'.(COCKPIT_STORAGE_FOLDER.'/data'), 'options' => ['db' => 'cockpitdb'] ],
+            'memory'       => ['server' => 'redislite://'.(COCKPIT_STORAGE_FOLDER.'/data/cockpit.memory.sqlite'), 'options' => [] ],
 
             'paths'         => [
                 '#root'     => COCKPIT_DIR,
@@ -192,7 +192,7 @@ function cockpit($module = null) {
         // mailer service
         $app->service('mailer', function() use($app, $config){
             $options   = isset($config['mailer']) ? $config['mailer']:[];
-            $mailer    = new \Mailer(isset($options['transport']) ? $options['transport'] : 'mail', $options);
+            $mailer    = new \Mailer($options['transport'] ?? 'mail', $options);
             return $mailer;
         });
 
@@ -203,13 +203,13 @@ function cockpit($module = null) {
         $app->renderer->setCachePath($tmppath);
 
         // i18n
-        $app("i18n")->locale = isset($config['i18n']) ? $config['i18n'] : 'en';
+        $app("i18n")->locale = $config['i18n'] ?? 'en';
 
         // load modules
         $app->loadModules(array_merge([
             COCKPIT_DIR.'/modules',  # core
             COCKPIT_DIR.'/addons' # addons
-        ], isset($config['loadmodules']) ? (array) $config['loadmodules'] : []));
+        ], $config['loadmodules'] ?? []));
 
         // load config global bootstrap
         if ($custombootfile = $app->path('#config:bootstrap.php')) {

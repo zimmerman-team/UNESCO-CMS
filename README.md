@@ -41,15 +41,6 @@ You need docker installed on your system: https://www.docker.com.
 1. Run `npm run docker-init` to build the initial image.
 2. Run `npm run docker` to start an Apache environment suited for Cockpit on port 8080 (this folder mapped to /var/www/html).
 
-NOTE: npm run docker creates a docker container each time, if you want to stop and start docker use 'docker stop container_id', 'docker start container_id'. You can see the container ids of all your docker containers by doing 'docker ps -a'.
-
-IF YOU GET ANY ERRORS WHEN RUNNING THIS LOCALLY FOLLOW THESE STEPS AFTER YOU'VE DONE THE ABOVE STEPS:
-1. In the project folder run 'docker ps -a' and find the docker id of this docker image
-2. Then do 'docker exec -it mycontainer bash' where the mycontainer is the docker id.
-3. Then do 'chmod -R 777 storage' (DO THIS ONLY LOCALLY! This gives all permissions to everyone!)
-4. Then go to your browser and go to this link: 'http://localhost:8080/install'
-5. And follow the steps shown in the browser.
-
 
 ### Copyright and license
 
