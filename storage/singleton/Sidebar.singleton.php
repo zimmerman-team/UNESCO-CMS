@@ -49,7 +49,7 @@
       'default' => '',
       'info' => '',
       'group' => '',
-      'localize' => false,
+      'localize' => true,
       'options' => 
       array (
       ),
@@ -103,7 +103,7 @@
       'default' => '',
       'info' => '',
       'group' => '',
-      'localize' => false,
+      'localize' => true,
       'options' => 
       array (
       ),
@@ -211,7 +211,7 @@
       'default' => '',
       'info' => '',
       'group' => '',
-      'localize' => false,
+      'localize' => true,
       'options' => 
       array (
       ),
@@ -225,7 +225,7 @@
   'template' => '',
   'data' => NULL,
   '_created' => 1532690999,
-  '_modified' => 1532691280,
+  '_modified' => 1533648425,
   'description' => '',
   'acl' => 
   array (

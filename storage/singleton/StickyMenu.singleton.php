@@ -1,14 +1,14 @@
 <?php
  return array (
   'name' => 'StickyMenu',
-  'label' => 'Sticky menu',
-  '_id' => 'StickyMenu5b618d60c2d51',
+  'label' => 'Sticky Menu',
+  '_id' => 'StickyMenu5b646094b5de0',
   'fields' => 
   array (
     0 => 
     array (
       'name' => 'AboutPageTxt',
-      'label' => 'About this page',
+      'label' => 'About Page Text',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -26,7 +26,7 @@
     1 => 
     array (
       'name' => 'ContactUsTitle',
-      'label' => 'Contact us',
+      'label' => 'Contact Us Title',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -44,7 +44,7 @@
     2 => 
     array (
       'name' => 'ContactUsTxt',
-      'label' => 'Contact us text',
+      'label' => 'Contact Us Txt',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -62,7 +62,7 @@
     3 => 
     array (
       'name' => 'PrintPageTxt',
-      'label' => 'Print page',
+      'label' => 'Print Page Txt',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -80,7 +80,7 @@
     4 => 
     array (
       'name' => 'FinancialFlowsAboutTxt',
-      'label' => 'Financial flows about text',
+      'label' => 'Financial Flows About Text',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -98,7 +98,7 @@
     5 => 
     array (
       'name' => 'FundsComeFromAboutTxt',
-      'label' => 'Where do our funds come from? about text',
+      'label' => 'Funds Come From About Text',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -116,7 +116,7 @@
     6 => 
     array (
       'name' => 'RequirementsAboutTxt',
-      'label' => 'Requirements about text',
+      'label' => 'Requirements About Text',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -134,7 +134,7 @@
     7 => 
     array (
       'name' => 'FundsBeingSpentAboutTxt',
-      'label' => 'Where are our funds being spent? about text',
+      'label' => 'Funds Being Spent About Text',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -152,7 +152,7 @@
     8 => 
     array (
       'name' => 'FundsBeingSpentOnAboutTxt',
-      'label' => 'Where are funds being spent on? about text',
+      'label' => 'Funds Being Spent On About Text',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -170,7 +170,7 @@
     9 => 
     array (
       'name' => 'AllProjectsAboutTxt',
-      'label' => 'All Projects about text',
+      'label' => 'All Projects About Text',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -188,7 +188,7 @@
     10 => 
     array (
       'name' => 'GlobalProjectsAboutTxt',
-      'label' => 'Global Projects about text',
+      'label' => 'Global Projects About Text',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -206,7 +206,7 @@
     11 => 
     array (
       'name' => 'RegionalProjectsAboutTxt',
-      'label' => 'Regional Projects about text',
+      'label' => 'Regional Projects About Text',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -224,7 +224,7 @@
     12 => 
     array (
       'name' => 'CountryProjectsAboutTxt',
-      'label' => 'Country Projects about text',
+      'label' => 'Country Projects About Text',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -242,7 +242,7 @@
     13 => 
     array (
       'name' => 'ProjectAboutTxt',
-      'label' => 'Project about text',
+      'label' => 'Project About Text',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -260,7 +260,7 @@
     14 => 
     array (
       'name' => 'CountryAboutTxt',
-      'label' => 'Country about text',
+      'label' => 'Country About Text',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -278,7 +278,7 @@
     15 => 
     array (
       'name' => 'RegionAboutTxt',
-      'label' => 'Region about text',
+      'label' => 'Region About Text',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -296,7 +296,7 @@
     16 => 
     array (
       'name' => 'SectorAboutTxt',
-      'label' => 'Sector about text',
+      'label' => 'Sector About Text',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -314,7 +314,7 @@
     17 => 
     array (
       'name' => 'DonorAboutTxt',
-      'label' => 'Donor about text',
+      'label' => 'Donor About Text',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -332,7 +332,7 @@
     18 => 
     array (
       'name' => 'DonorCategoryAboutTxt',
-      'label' => 'Donor category about text',
+      'label' => 'Donor Category About Text',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -350,7 +350,7 @@
     19 => 
     array (
       'name' => 'FocusAreaAboutTxt',
-      'label' => 'Focus Area  about text',
+      'label' => 'Focus Area About Text',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -368,7 +368,7 @@
     20 => 
     array (
       'name' => 'ViewDonorTxt',
-      'label' => 'View as donor',
+      'label' => 'View Donor Text',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -386,7 +386,7 @@
     21 => 
     array (
       'name' => 'ViewCountryTxt',
-      'label' => 'View as country',
+      'label' => 'View Country Text',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -404,7 +404,7 @@
     22 => 
     array (
       'name' => 'ViewProfileTxt',
-      'label' => 'Unesco country profile',
+      'label' => 'View Profile Text',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -422,11 +422,10 @@
   ),
   'template' => '',
   'data' => NULL,
-  '_created' => 1533119840,
-  '_modified' => 1533120132,
-  'description' => '',
+  '_created' => 1533304980,
+  '_modified' => 1533304980,
+  'description' => 'Texts for the sticky menu',
   'acl' => 
   array (
   ),
-  'icon' => 'items.svg',
 );
