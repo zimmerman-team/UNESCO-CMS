@@ -283,7 +283,15 @@ class UtilArrayQuery {
                     if (is_array($value)) {
                         $fn[] = "\\MongoLite\\UtilArrayQuery::check((isset({$d}) ? {$d} : null), ".var_export($value, true).")";
                     } else {
-                        $fn[] = "(isset({$d}) && {$d}==".(is_string($value) ? "'{$value}'": var_export($value, true)).")";
+
+                        $_value = var_export($value, true);
+
+                        $fn[] = "(isset({$d}) && (
+                                    is_array({$d}) && is_string({$_value})
+                                        ? in_array({$_value}, {$d})
+                                        : {$d}=={$_value}
+                                    )
+                                )";
                     }
             }
         }
@@ -359,7 +367,7 @@ class UtilArrayQuery {
 
             case '$all' :
                 if (!is_array($a)) $a = @json_decode($a, true) ?  : array();
-                if (! is_array($b))
+                if (!is_array($b))
                     throw new \InvalidArgumentException('Invalid argument for $all option must be array');
                 $r = count(array_intersect_key($a, $b)) == count($b);
                 break;
@@ -471,4 +479,31 @@ function fuzzy_search($search, $text, $distance = 3){
     }
 
     return $score / count($needles);
+}
+
+function createMongoDbLikeId() {
+
+    // based on https://gist.github.com/h4cc/9b716dc05869296c1be6
+
+    $timestamp = microtime(true);
+    $hostname  = php_uname('n');
+    $processId = getmypid();
+    $id        = random_int(10, 1000);
+    $result    = '';
+
+    // Building binary data.
+    $bin = sprintf(
+        "%s%s%s%s",
+        pack('N', $timestamp),
+        substr(md5($hostname), 0, 3),
+        pack('n', $processId),
+        substr(pack('N', $id), 1, 3)
+    );
+
+    // Convert binary to hex.
+    for ($i = 0; $i < 12; $i++) {
+        $result .= sprintf("%02x", ord($bin[$i]));
+    }
+
+    return $result;
 }

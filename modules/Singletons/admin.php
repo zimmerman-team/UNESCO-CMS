@@ -3,7 +3,7 @@
 $app->on('admin.init', function() {
 
 
-    if (!$this->module('cockpit')->getGroupRights('singleton') && !$this->module('singletons')->getSingletonInGroup()) {
+    if (!$this->module('cockpit')->getGroupRights('singletons') && !$this->module('singletons')->getSingletonInGroup()) {
 
         $this->bind('/singletons/*', function() {
             return $this('admin')->denyRequest();
@@ -38,6 +38,22 @@ $app->on('admin.init', function() {
                     'url'   => $this->routeUrl('/singletons/singleton/'.$meta['name'])
                 ];
             }
+        }
+    });
+
+    $this->on('cockpit.menu.aside', function() {
+
+        $singletons = [];
+
+        foreach ($this->module('singletons')->getSingletonsInGroup() as $singleton) {
+
+            if (isset($singleton['in_menu']) && $singleton['in_menu']) {
+                $singletons[] = $singleton;
+            }
+        }
+
+        if (count($singletons)) {
+            $this->renderView("singletons:views/partials/menu.php", compact('singletons'));
         }
     });
 

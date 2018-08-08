@@ -11,16 +11,14 @@ include(__DIR__.'/Helper/Admin.php');
 $app->helpers['admin']  = 'Cockpit\\Helper\\Admin';
 
 // init + load i18n
-$app('i18n')->locale = 'en';
 
-if ($user = $app->module('cockpit')->getUser()) {
+$app('i18n')->locale = $app->retrieve('i18n', 'en');
 
-    $locale = isset($user['i18n']) ? $user['i18n'] : $app->retrieve('i18n', 'en');
+$locale = $app->module('cockpit')->getUser('i18n', $app('i18n')->locale);
 
-    if ($translationspath = $app->path("#config:cockpit/i18n/{$locale}.php")) {
-        $app('i18n')->locale = $locale;
-        $app('i18n')->load($translationspath, $locale);
-    }
+if ($translationspath = $app->path("#config:cockpit/i18n/{$locale}.php")) {
+    $app('i18n')->locale = $locale;
+    $app('i18n')->load($translationspath, $locale);
 }
 
 $app->bind('/cockpit.i18n.data', function() {
@@ -37,9 +35,7 @@ $app->bind('/cockpit.i18n.data', function() {
 $assets = [
 
     // polyfills
-    'assets:polyfills/es6-shim.js',
     'assets:polyfills/dom4.js',
-    'assets:polyfills/fetch.js',
     'assets:polyfills/document-register-element.js',
     'assets:polyfills/web-animations.min.js',
     'assets:polyfills/pointer-events.js',
