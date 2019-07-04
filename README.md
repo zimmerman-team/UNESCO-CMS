@@ -20,7 +20,7 @@ to set up cockpit itself using docker, but that would run on sqlite and you woul
    * Set up supervisor for your instance. And start the supervisor service.
    * Start your mongoDB service: ```sudo service mongod start```
    * Set up apache for your instance. And start the apache service.
-   * Some more specific infoemation on cockpit cms set up: 
+   * Some more specific information on cockpit cms set up: 
       1. Unesco production server holds Cockpit CMS files (they were simply downloaded using `wget`). This CMS is written in          PHP (Unesco production uses PHP v. 7.) and for the database it uses Mongodb (v. 3.2.20). CMS settings (like which            database to use and etc.) can be configured in `config/config.yaml` file. 
       
       2. To restart PHP (f. ex. after modifying something in the PHP files themselves), execute "sudo systemctl restart      php7.1-fpm.service".
