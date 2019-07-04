@@ -1,3 +1,36 @@
+# UNESCO-CMS
+## Requirements
+
+| Name                   | Recommended version | Reference for ubuntu xenial 16.04 |
+| ---                    | ---       | ---                 | 
+| Apache2  | --- | <a href="https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-16-04"> Installing Apache2 </a> |
+| Nginx (for deployment) | 1.15 | <a href="https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-16-04 "> Installing nginx </a> | 
+| PHP | 7.0 or higher | <a href="https://www.rosehosting.com/blog/how-to-install-php-7-2-on-ubuntu-16-04/ "> Installing PHP </a> |
+| MongoDB | 3.2 or higher | <a href="https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/"> Installing mongoDB </a> |
+| Nodejs | v10 | <a href="https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/"> Installing Nodejs </a> |
+| Supervisor (for deployment) | 3.2 | <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-manage-supervisor-on-ubuntu-and-debian-vps"> Installing supervisor </a> |
+
+## Set up
+This current deployment is not possible to run locally. See deployment to run the current CMS on a server. It's possible
+to set up cockpit itself using docker, but that would run on sqlite and you would need to create all of the components and fields in them, in the same way that its done in one other UNESCO CMS instances.
+
+## Deployment
+
+   * Set up nginx for your instance. And start the nginx service.
+   * Set up supervisor for your instance. And start the supervisor service.
+   * Start your mongoDB service: ```sudo service mongod start```
+   * Set up apache for your instance. And start the apache service.
+   * Some more specific infoemation on cockpit cms set up: 
+      1. Unesco production server holds Cockpit CMS files (they were simply downloaded using `wget`). This CMS is written in          PHP (Unesco production uses PHP v. 7.) and for the database it uses Mongodb (v. 3.2.20). CMS settings (like which            database to use and etc.) can be configured in `config/config.yaml` file. 
+      
+      2. To restart PHP (f. ex. after modifying something in the PHP files themselves), execute "sudo systemctl restart      php7.1-fpm.service".
+      
+      3. For Mongodb docs (f. ex. how to use Mongo db shell or insert records manually, make / load db dumps), refer to https://docs.mongodb.com/v3.2/
+      
+      4. Cockpit CMS docs are here, but at the point of making this doc they really lack information. F. ex. for forgotten admin password, this needs to be done: https://github.com/agentejo/cockpit/issues/109#issuecomment-48117739
+
+### Below you'll find the original cockpit documentation
+
 # Cockpit Next
 
 [![Backers on Open Collective](https://opencollective.com/cockpit/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/cockpit/sponsors/badge.svg)](#sponsors)
