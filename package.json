@@ -19,6 +19,7 @@
         "watch-run": "^1.2.4"
     },
     "dependencies": {
+        "lodash": "^4.17.13",
         "opencollective": "^1.0.3"
     },
     "collective": {
